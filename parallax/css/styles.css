@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    background: blanchedalmond;
+}
+.parallax {
+  background-image: url("https://images.pexels.com/photos/979932/pexels-photo-979932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.custom {
+    background-image: url("https://images.pexels.com/photos/947202/pexels-photo-947202.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.custom2 {
+    background-image: url("https://images.pexels.com/photos/768784/pexels-photo-768784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

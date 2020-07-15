@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+    function abc() {
+        document.getElementById("h1").innerHTML = "Aditya"
+    }
+    switch (document.readyState) {
+        case "loading":
+            console.log(document.readyState)
+            break;
+        case "interactive":
+            console.log(document.readyState)
+            break;
+        case "complete":
+            console.log(document.readyState)
+            break;
+    }
+    document.addEventListener('document.DOMContentLoaded', abc)
+</script>
+
+<body>
+    <h1 class="h1"></h1>
+</body>
+
+</html>
